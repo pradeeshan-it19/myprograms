@@ -1,0 +1,25 @@
+ #include<stdio.h>
+ 
+ 
+int main()
+{
+int year=0;
+printf("Enter the year");
+scanf("%d",&year);
+ 
+if(year/4 )
+ 
+{
+if(year/100==0)
+{
+ 
+printf("%dleap year",year);
+ }
+}
+if(year/400)
+{
+printf("%dnot leap year",year);
+}
+return 0;
+}
+ 
